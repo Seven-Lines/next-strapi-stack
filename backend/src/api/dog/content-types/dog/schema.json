@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dogs",
+  "info": {
+    "singularName": "dog",
+    "pluralName": "dogs",
+    "displayName": "Dog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Breed": {
+      "type": "string"
+    }
+  }
+}

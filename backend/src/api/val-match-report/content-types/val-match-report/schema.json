@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "val_match_reports",
+  "info": {
+    "singularName": "val-match-report",
+    "pluralName": "val-match-reports",
+    "displayName": "val-match-report"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "asd": {
+      "type": "string"
+    },
+    "team_a": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dog.dog"
+    }
+  }
+}

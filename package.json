@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "qs": "^6.11.2",
+    "touch-cli": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.39",
+    "typescript": "^5.3.2"
+  }
+}
